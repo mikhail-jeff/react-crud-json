@@ -1,5 +1,9 @@
+import './index.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Listing from './components/Listing';
+import List from './components/List';
+import Create from './components/Create';
+import Details from './components/Details';
+import Edit from './components/Edit';
 
 function App() {
 	return (
@@ -7,7 +11,19 @@ function App() {
 			<Routes>
 				<Route
 					path='/'
-					element={<Listing />}
+					element={<List />}
+				/>
+				<Route
+					path='/employee/create'
+					element={<Create />}
+				/>
+				<Route
+					path='/employee/details/:id'
+					element={<Details />}
+				/>
+				<Route
+					path='/employee/edit/:id'
+					element={<Edit />}
 				/>
 			</Routes>
 		</Router>

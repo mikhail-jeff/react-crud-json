@@ -1,0 +1,16 @@
+{
+  "employee": [
+    {
+      "name": "Donald Trump",
+      "email": "donald@yahoo.com",
+      "phone": "0210",
+      "id": 1
+    },
+    {
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "phone": "123450000",
+      "id": 2
+    }
+  ]
+}
