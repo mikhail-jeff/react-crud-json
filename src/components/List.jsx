@@ -43,7 +43,7 @@ const List = () => {
 
 	return (
 		<section className=''>
-			<h2 className='text-center p-4 text-3xl'>CRUD JSON</h2>
+			<h2 className='text-center p-4 text-3xl'>React JS CRUD using JSON-server </h2>
 			<div className='max-w-[700px] mx-auto'>
 				<div className='p-4 text-center'>
 					<Link

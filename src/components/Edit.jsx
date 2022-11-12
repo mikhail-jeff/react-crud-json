@@ -91,7 +91,7 @@ const Edit = () => {
 							className='bg-blue-600 hover:bg-blue-700 text-white font-medium py-1 px-2 rounded focus:outline-none focus:shadow-outline'
 							type='submit'
 						>
-							Save
+							Update
 						</button>
 						<Link
 							to='/'

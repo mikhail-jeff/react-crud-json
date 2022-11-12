@@ -42,10 +42,10 @@ const Details = () => {
 						</p>
 						<div className='mt-5 text-center'>
 							<Link
-								className='bg-blue-600 py-1 px-2 rounded-sm'
+								className='bg-blue-600 py-1 px-2 rounded-lg'
 								to='/'
 							>
-								Back to List
+								Back
 							</Link>
 						</div>
 					</div>
